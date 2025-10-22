@@ -74,7 +74,6 @@ class _CalculatorPageState extends State<CalculatorPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
-            // Display Area
             Container(
               alignment: Alignment.centerRight,
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
@@ -86,9 +85,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
             Container(
               alignment: Alignment.centerRight,
               padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Text(
-                result,
-                style: const TextStyle(color: Colors.greenAccent, fontSize: 28),
+              child: Text(result,style: const TextStyle(color: Colors.greenAccent, fontSize: 28),
               ),
             ),
             const SizedBox(height: 10),
